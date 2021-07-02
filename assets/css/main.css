@@ -1978,10 +1978,10 @@ ul.icons {
     #banner a:hover {
       color: #ffffff; }
   #banner video {
-    -moz-transform: translateX(50%) translateY(50%);
-    -webkit-transform: translateX(50%) translateY(50%);
-    -ms-transform: translateX(50%) translateY(50%);
-    transform: translateX(50%) translateY(50%);
+    -moz-transform: translateX(100%) translateY(100%);
+    -webkit-transform: translateX(100%) translateY(100%);
+    -ms-transform: translateX(100%) translateY(100%);
+    transform: translateX(100%) translateY(100%);
     bottom: 50%;
     height: auto;
     min-height: 100%;
