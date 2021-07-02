@@ -2004,7 +2004,7 @@ ul.icons {
     display: block;
     height: 100%;
     left: 0;
-    opacity: 0.45;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     width: 100%;
@@ -2054,7 +2054,7 @@ ul.icons {
     transform: scale(0.99);
     opacity: 0; }
   body.is-preload #banner:before {
-    opacity: 1; }
+    opacity: 0; }
 
 /* CTA */
 #cta {
