@@ -54,7 +54,7 @@
 		}
 
 		video {
-			@include vendor('transform', 'translateX(50%) translateY(50%)');
+			@include vendor('transform', 'translateX(0%) translateY(0%)');
 			bottom: 50%;
 			height: auto;
 			min-height: 100%;
