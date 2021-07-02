@@ -1901,7 +1901,7 @@ ul.icons {
     #banner select:focus,
     #banner textarea:focus {
       border-color: #ce1b28;
-      box-shadow: 0 0 0 1px #ffffff; }
+      box-shadow: 0 0 0 1px #ce1b28; }
   #banner select {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E"); }
     #banner select option {
@@ -2004,13 +2004,13 @@ ul.icons {
     display: block;
     height: 100%;
     left: 0;
-    opacity: 0.5;
+    opacity: 0.05;
     position: absolute;
     top: 0;
     width: 100%;
     z-index: 1; }
   #banner:after {
-    background: linear-gradient(135deg, ##ffffff 0%, #111111 74%);
+    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
     content: ' ';
     display: block;
     height: 100%;
