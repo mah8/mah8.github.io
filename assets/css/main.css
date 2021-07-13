@@ -1982,7 +1982,7 @@ ul.icons {
     -webkit-transform: translateX(50%) translateY(50%);
     -ms-transform: translateX(50%) translateY(50%);
     transform: translateX(50%) translateY(50%);
-    bottom: 50%;
+    bottom: 20%;
     height: auto;
     min-height: 100%;
     min-width: 100%;
