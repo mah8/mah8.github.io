@@ -1,11 +1,5 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
-/*
-	Industrious by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-/* Basic */
 @-ms-viewport {
   width: device-width; }
 body {
@@ -1780,7 +1774,7 @@ ul.icons {
 
 /* Wrapper */
 .wrapper {
-  padding: 8rem 0 6rem 0 ;
+  padding: 4rem 0 2rem 0 ;
   position: relative;
   z-index: 1; }
   @media screen and (max-width: 1280px) {
@@ -2505,8 +2499,8 @@ body {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 15rem !important;
-  min-height: 15rem;
+  height: 0rem !important;
+  min-height: 0rem;
   overflow: hidden;
   position: relative;
   text-align: center;
