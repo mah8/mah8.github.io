@@ -4,15 +4,10 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
-@media (min-width: 768px) {
-  img {
-    width: 50%;
-  }
-}
 
 body {
    display: flex;
