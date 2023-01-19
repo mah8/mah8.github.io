@@ -4,12 +4,8 @@ body {
 }
 
 img {
-   width: 60%;
-   height: auto;
-}
-
-img {
-   margin: 0 auto;
+  width: 50vw;
+  height: 30vh;
 }
 
 body {
