@@ -4,9 +4,16 @@ body {
 }
 
 img {
-  width: auto;
+  max-width: 40%;
   height: auto;
 }
+
+@media only screen and (max-width: 480px) {
+  img {
+    width: 100%;
+  }
+}
+
 
 
 body {
