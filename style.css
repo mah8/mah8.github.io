@@ -7,3 +7,18 @@ h1 {
    font-size: 48px;
    margin-top: 100px;
 }
+
+img {
+   width: 50%;
+   height: auto;
+}
+
+img {
+   margin: 0 auto;
+}
+
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
