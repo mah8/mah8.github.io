@@ -8,9 +8,9 @@ img {
   height: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
   img {
-    width: 100%;
+    width: 200%;
     height: auto;
   }
 }
