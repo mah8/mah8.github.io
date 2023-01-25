@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
   letter-spacing:1.3px;
   text-transform: uppercase;
-  margin: 0 2rem 3rem 0; }
+  margin: 0 0 0 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none;
@@ -1815,8 +1815,8 @@ ul.icons {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 25rem !important;
-  min-height: 25rem;
+  height: 23em !important;
+  min-height: 23rem;
   overflow: hidden;
   position: relative;
   text-align: center;
