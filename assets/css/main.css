@@ -66,10 +66,7 @@ table {
 
 body {
   -webkit-text-size-adjust: none; 
-  text-align: justify;
-  line-height: 1.5;
-  text-justify: auto;
-  text-rendering: optimizeLegibility;}
+   text-rendering: optimizeLegibility;}
 
 mark {
   background-color: transparent;
