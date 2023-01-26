@@ -67,6 +67,8 @@ table {
 body {
   -webkit-text-size-adjust: none; 
   text-align: justify;
+  line-height: 1.5;
+  text-justify: inter-word;
   text-rendering: optimizeLegibility;}
 
 mark {
