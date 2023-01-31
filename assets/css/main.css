@@ -1777,6 +1777,16 @@ ul.icons {
     .image.main img {
       width: 100%; }
 
+/* Popup */
+#popup {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+}
+
 /* Wrapper */
 .wrapper {
   padding: 1rem 0 1rem 0 ;
