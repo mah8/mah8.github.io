@@ -72,10 +72,11 @@
 						<section>
 							<div class="content">
 								<blockquote>
-									  <div class="image">
-									    <a href="#cta2"><img src="images/img1.jpg" alt="" />
+								    <div class="image">
+									    <img src="images/img1.jpg" id="img1" alt="Business Development" />
+									    <div id="popup">Finding the right business partner is critical to success in any new market. Our team has extensive knowledge of the Southeast Asian market and can help you identify and establish relationships with the right partners for your business. We conduct thorough due diligence on potential partners and provide you with a detailed evaluation to help you make informed decisions</div>
 								    </div>
-								  <h3><strong>Business Development</h3></strong></a>
+								  <h3><strong>Business Development</strong></h3>
 								 <p><strong></p></strong>
 								</blockquote>
 								
@@ -145,8 +146,30 @@
 						</section>
 					</div>
 				</div>
+
+				<script>
+				  const image = document.getElementById("your-image-id");
+				  const popup = document.getElementById("popup");
+
+				  image.addEventListener("mouseenter", function() {
+				    popup.style.display = "block";
+				    popup.style.left = (image.offsetLeft + image.width + 10) + "px";
+				    popup.style.top = (image.offsetTop + (image.height / 2) - (popup.offsetHeight / 2)) + "px";
+				  });
+
+				  image.addEventListener("mouseleave", function() {
+				    popup.style.display = "none";
+				  });
+				</script>
 			</section>
 			
+
+
+
+
+
+
+
 		<!-- CTA -->
 			<section id="cta" class="wrapper">
 				<div class="inner">
