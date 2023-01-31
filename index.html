@@ -151,21 +151,6 @@
 							</div>
 
 						</section>
-						<script>
-						  const image = document.getElementById("your-image-id");
-						  const popup = document.getElementById("popup");
-
-						  image.addEventListener("mouseenter", function() {
-						    popup.style.display = "block";
-						    popup.style.left = (image.offsetLeft + image.width + 10) + "px";
-						    popup.style.top = (image.offsetTop + (image.height / 2) - (popup.offsetHeight / 2)) + "px";
-						  });
-
-						  image.addEventListener("mouseleave", function() {
-						    popup.style.display = "none";
-						  });
-						</script>
-
 					</div>
 				</div>
 
@@ -250,6 +235,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+                        <script src="assets/js/popup.js"></script>
+
 
 	</body>
 </html>
