@@ -96,7 +96,7 @@ html {
       font-size: 11pt; } }
 
 body {
-  background-color: #BDD2F3;
+  background-color: radial-gradient(#BDD2F3,#2980B9);
   color: #33496C; }
 
 body, input, select, textarea {
