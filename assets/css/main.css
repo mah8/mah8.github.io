@@ -184,6 +184,8 @@ sup {
   top: -0.5rem; }
 
 blockquote {
+  font-size: 48px;
+  font-weight: bold;}
   border-left: solid 0rem;
   font-style: italic;
   margin: 0 0 0rem 0;
@@ -1976,9 +1978,6 @@ ul.icons {
     z-index: 3; }
     #banner > .inner > :last-child {
       margin-bottom: 0; }
-  #blockquote {
-    font-size: 48px;
-    font-weight: bold;}
   #banner h1 {
     font-size: 4rem;
     margin-bottom: 1rem; }
