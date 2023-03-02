@@ -1807,7 +1807,7 @@ ul.icons {
   -ms-flex-align: center;
   -ms-flex-pack: center;
   background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.75);
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -1976,7 +1976,7 @@ ul.icons {
     z-index: 3; }
     #banner > .inner > :last-child {
       margin-bottom: 0; }
-  #quoteElement {
+  #blockquote {
     font-size: 48px;
     font-weight: bold;}
   #banner h1 {
