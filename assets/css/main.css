@@ -1787,12 +1787,6 @@ ul.icons {
   border: 1px solid black;
 }
 
-/* Quotes */
-#quoteElement {
-  font-size: 48px;
-  font-weight: bold;
-}
-
 /* Wrapper */
 .wrapper {
   padding: 1rem 0 1rem 0 ;
@@ -1982,6 +1976,9 @@ ul.icons {
     z-index: 3; }
     #banner > .inner > :last-child {
       margin-bottom: 0; }
+  #quoteElement {
+    font-size: 48px;
+    font-weight: bold;}
   #banner h1 {
     font-size: 4rem;
     margin-bottom: 1rem; }
