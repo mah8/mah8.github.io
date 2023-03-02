@@ -41,9 +41,15 @@
 			<section id="banner">
 				<div class="inner">
 				  <h1><img src="images/8BA-international-business-development-logo.png" alt="logo"/></h1>
-				  <h3 style="text-transform: none;"><strong>"Cultural sensitivity is vital in international business. It's the key to building trust, understanding, and respect"</h3><h4> Bill Gates</strong></h4>
-								
-				</div>
+				  <div id="quote"></div>
+   					 <script src="quotes.js"></script>
+   					 <script>
+    					 const quoteElement = document.getElementById("quote");
+	      				 const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+     					 quoteElement.innerHTML = `<blockquote>${randomQuote.quote}</blockquote><cite>${randomQuote.author}</cite>`;
+   					 setInterval(randomQuote, 5000);
+					 </script>
+				  </div>
 				<video autoplay loop muted playsinline src="images/8BA-international-business-development-banner.mp4"></video>
 			</section>
 
