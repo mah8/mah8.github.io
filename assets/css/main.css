@@ -1789,7 +1789,8 @@ ul.icons {
 
 /* Quotes */
 #quoteElement {
-  font-size: 24px;
+  font-size: 48px;
+  font-weight: bold;
 }
 
 /* Wrapper */
