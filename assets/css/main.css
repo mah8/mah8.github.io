@@ -1977,7 +1977,7 @@ ul.icons {
     -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
     -ms-transition: opacity 1s ease, -ms-transform 1s ease;
     transition: opacity 1s ease, transform 1s ease;
-    opacity: .65;
+    opacity: .80;
     position: relative;
     z-index: 3; }
     #banner > .inner > :last-child {
