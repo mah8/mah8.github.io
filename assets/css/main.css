@@ -1787,6 +1787,11 @@ ul.icons {
   border: 1px solid black;
 }
 
+/* Quotes */
+#quoteElement {
+  font-size: 24px;
+}
+
 /* Wrapper */
 .wrapper {
   padding: 1rem 0 1rem 0 ;
@@ -2064,6 +2069,7 @@ ul.icons {
     opacity: 0; }
   body.is-preload #banner:before {
     opacity: 1; }
+
 
 /* CTA */
 #cta {
