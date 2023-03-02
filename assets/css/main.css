@@ -184,7 +184,7 @@ sup {
   top: -0.5rem; }
 
 blockquote {
-  border-left: solid 0.5rem;
+  border-left: solid 0rem;
   font-style: italic;
   margin: 0 0 0rem 0;
   padding: 1rem 0 1rem 1rem; }
