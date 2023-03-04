@@ -2379,7 +2379,7 @@ ul.icons {
     text-align: center; }
   @media screen and (max-width: 1280px) {
     #footer {
-      padding: 4rem 0 2rem 0 ; } }
+      padding: 1rem 0 2rem 0 ; } }
   @media screen and (max-width: 980px) {
     #footer .content {
       -moz-flex-wrap: wrap;
