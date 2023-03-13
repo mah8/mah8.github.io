@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Eigh-Ba IBD</title>
+    <link>http://mah8.github.io/categories/</link>
+    <description>Recent content in Categories on Eigh-Ba IBD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Mar 2023 13:50:46 +0200</lastBuildDate><atom:link href="http://mah8.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cultural intelligence</title>
+      <link>http://mah8.github.io/categories/cultural-intelligence/</link>
+      <pubDate>Fri, 10 Mar 2023 13:50:46 +0200</pubDate>
+      
+      <guid>http://mah8.github.io/categories/cultural-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>international expansion</title>
+      <link>http://mah8.github.io/categories/international-expansion/</link>
+      <pubDate>Fri, 10 Mar 2023 13:50:46 +0200</pubDate>
+      
+      <guid>http://mah8.github.io/categories/international-expansion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>new markets</title>
+      <link>http://mah8.github.io/categories/new-markets/</link>
+      <pubDate>Fri, 10 Mar 2023 13:50:46 +0200</pubDate>
+      
+      <guid>http://mah8.github.io/categories/new-markets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>strategy</title>
+      <link>http://mah8.github.io/categories/strategy/</link>
+      <pubDate>Fri, 10 Mar 2023 13:50:46 +0200</pubDate>
+      
+      <guid>http://mah8.github.io/categories/strategy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
