@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Eigh-Ba IBD</title>
+    <link>http://mah8.github.io/authors/</link>
+    <description>Recent content in Authors on Eigh-Ba IBD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Mar 2023 13:50:46 +0200</lastBuildDate><atom:link href="http://mah8.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eight Ba</title>
+      <link>http://mah8.github.io/authors/eight-ba/</link>
+      <pubDate>Fri, 10 Mar 2023 13:50:46 +0200</pubDate>
+      
+      <guid>http://mah8.github.io/authors/eight-ba/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
