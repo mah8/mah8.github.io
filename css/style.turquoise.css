@@ -1,13 +1,13 @@
 /* Themed colors */
 :root {
-  --primary-accent: #0077B5;
-  --navbar-border-top: #D3D3D3;
-  --button-border: #0077B5;
-  --link-focus: #40BFFF;
-  --form-shadow: rgba(204, 204, 204, 0.6);
-  --pagination-bg: #FFFFFF;
-  --link-hover-bg: #E6F6FF;
-  --navbar-focus: #f2f2f2;
+  --primary-accent: #3C4858;
+  --navbar-border-top: #b79223;
+  --button-border: #a87f1a;
+  --link-focus:  #DAA520 ;
+  --form-shadow: #152233;
+  --pagination-bg: #9B4E4E;
+  --link-hover-bg: #957117;
+  --navbar-focus: #0F1B27 ;
 }
 
 .clearfix:before,
@@ -243,9 +243,9 @@ ul.list-style-none {
   }
 }
 #top {
-  background: #555555;
+  background: #3C4858;
   color: #eeeeee;
-  padding: 10px 0;
+  padding: 8px 0;
 }
 #top p {
   margin: 0;
@@ -1743,8 +1743,8 @@ fieldset[disabled] .btn-template-primary.active {
 #heading-breadcrumbs {
   background: url('../img/texture-turquoise.png') center center repeat;
   padding: 20px 0;
-  margin-bottom: 40px;
-}
+  margin-bottom: 40px;}
+
 #heading-breadcrumbs.no-mb {
   margin-bottom: 0;
 }
@@ -1819,8 +1819,8 @@ fieldset[disabled] .btn-template-primary.active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #000;
-  opacity: 0.3;
+  background: #3C4858;
+  opacity: 0.8;
   filter: alpha(opacity=30);
 }
 .portfolio.no-space {
@@ -2526,9 +2526,9 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0 0 20px;
 }
 #footer {
-  background: #555555;
+  background: #3C4858;
   padding: 50px 0;
-  color: #999999;
+  color: #b4b3b3;
 }
 #footer h1,
 #footer h2,
