@@ -286,22 +286,18 @@
                     <a href="https://www.eight-ba.com/" target="_blank" title="">
                     
                         <div class="row">
-                            <div class="col-sm-6 right">
-                                <h1></h1>
-                                <ul class="list-style-none">
-                                    <br>
-                                    <div id="quote"></div>
-                                        <script src="quotes.js"></script>
-                                        <script>
-                                            const quoteElement = document.getElementById("quote");
-                                            const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-                                            quoteElement.innerHTML = `<blockquote>${randomQuote.quote}</blockquote><cite>${randomQuote.author}</cite>`;
-                                        </script>
-                                    </div>
-                                </ul>
+                            <div class="col-sm-5 right">
+                                <div id="quote"></div>
+   					 <script src="quotes.js"></script>
+   					 <script>
+    					 const quoteElement = document.getElementById("quote");
+	      				 const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+     					 quoteElement.innerHTML = `<blockquote>${randomQuote.quote}</blockquote><cite>${randomQuote.author}</cite>`;
+   					 </script>
+				 </div>
 
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-7">
                                 <img class="img-responsive" src="img/Eight%20_logos_transparent_rectangle_xs.png" alt="">
                             </div>
                         </div>
