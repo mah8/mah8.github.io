@@ -289,10 +289,16 @@
                             <div class="col-sm-5 right">
                                 <h1></h1>
                                 <ul class="list-style-none">
-  <br>
-  <li>The biggest mistake that most businesses make is not taking cultural differences into account when they expand into new countries</li>
-  <li><em>Richard Branson</em></li>
-</ul>
+                                    <br>
+                                    <div id="quote"></div>
+                                        <script src="quotes.js"></script>
+                                        <script>
+                                            const quoteElement = document.getElementById("quote");
+                                            const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+                                            quoteElement.innerHTML = `<blockquote>${randomQuote.quote}</blockquote><cite>${randomQuote.author}</cite>`;
+                                        </script>
+                                    </div>
+                                </ul>
 
                             </div>
                             <div class="col-sm-7">
