@@ -14,7 +14,7 @@
 /* Use the dark mode palette when the user's browser is in dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
-  --primary-accent: #222;
+  --primary-accent: #CCFFFF;
   --navbar-border-top: #fff;
   --button-border: #333;
   --link-focus: #ddd;
