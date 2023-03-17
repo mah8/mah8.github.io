@@ -25,15 +25,14 @@
 /* Use the dark mode palette when the user's browser is in dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --primary-background: #111;
-    --primary-text: #ddd;
-    --secondary-background: #222;
-    --secondary-text: #fff;
-    --accent-color: #DAA520;
-    --border-color: #a87f1a;
-    --hover-color: #957117;
-    --focus-color: #b79223;
-    --shadow-color: #222;
+  --primary-accent: #222;
+  --navbar-border-top: #fff;
+  --button-border: #333;
+  --link-focus: #ddd;
+  --form-shadow: #DAA520;
+  --pagination-bg: #a87f1a;
+  --link-hover-bg: #957117;
+  --navbar-focus: #b79223;
   }
  
 .clearfix:before,
