@@ -231,7 +231,7 @@ ul.list-style-none {
 }
 @media (min-width: 1300px) {
   body.boxed {
-    background: url(img/page-3.png);
+    background: url(img/image22.png);
   }
   body.boxed #all {
     position: relative;
@@ -2854,7 +2854,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .navbar-collapse {
   overflow-x: visible;
-  padding-right: 15px;
+  padding-right: 5px;
   padding-left: 15px;
 }
 .navbar-collapse.in {
