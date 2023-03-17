@@ -76,7 +76,19 @@
 
 <meta name="twitter:description" content="Eight-Ba Site and Blog">
 
-   
+
+
+<script>
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    localStorage.setItem('hugo-dark-mode', 'true');
+  }
+  else {
+    localStorage.setItem('hugo-dark-mode', 'false');
+  }
+</script>
+
+
+    
   </head>
 
   <body>
@@ -120,15 +132,13 @@
     <div class="navbar navbar-default yamm " role="navigation" id="navbar">
         <div class="container">
             <div class="navbar-header">
-       
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/logo.png" alt="Eigh-Ba IBD logo" />
-		  
-		    
-		    <span class="sr-only">Eigh-Ba IBD - go to homepage</span>
-		  </a>	
-	    </div>
-                
+                    
+                      <img src="/img/logo.png" alt="Eigh-Ba IBD logo" class="hidden-xs hidden-sm" />
+                      <img src="/img/logo-small.png" alt="Eigh-Ba IBD logo" class="visible-xs visible-sm" />
+                    
+                    <span class="sr-only">Eigh-Ba IBD - go to homepage</span>
+                </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
                       <span class="sr-only">Toggle Navigation</span>
