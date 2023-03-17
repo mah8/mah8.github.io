@@ -1175,6 +1175,12 @@ fieldset[disabled] .btn-template-primary.active {
   opacity: 0.8;
   filter: alpha(opacity=90);
 }
+@media (prefers-color-scheme: dark) {
+  .dark-mask {
+    opacity: 0.2; /* new opacity value for dark mode */
+  }
+}
+
 .home-carousel .owl-carousel {
   padding-top: 60px;
   padding-bottom: 20px;
@@ -1224,7 +1230,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel ul,
 .home-carousel p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   padding: 0;
   text-transform: uppercase;
