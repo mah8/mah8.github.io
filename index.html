@@ -292,10 +292,10 @@
                                     
                                     <div id="quote"></div>
                                     <script src="quotes.js"></script>
-                                    <script>
-                                            const quoteElement = document.getElementById("quote");
-                                            const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-                                            quoteElement.innerHTML = `<blockquote>${randomQuote.quote}</blockquote><cite>${randomQuote.author}</cite>`;
+                                    <script>{
+                                    	const quoteElement = document.getElementById("quote");
+                                        const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+                                        quoteElement.innerHTML = `<blockquote>${randomQuote.quote}</blockquote><cite>${randomQuote.author}</cite>`;}
                                     </script>
                               
                             </ul>
