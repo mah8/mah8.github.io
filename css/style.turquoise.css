@@ -9,32 +9,6 @@
   --pagination-bg: #9B4E4E;
   --link-hover-bg: #957117;
   --navbar-focus: #0F1B27;
-
-  /* Mobile dark mode */
-  --primary-background: #222;
-  --primary-text: #fff;
-  --secondary-background: #333;
-  --secondary-text: #ddd;
-  --accent-color: #DAA520;
-  --border-color: #a87f1a;
-  --hover-color: #957117;
-  --focus-color: #b79223;
-  --shadow-color: #111;
-}
-
-/* Use the mobile dark mode color scheme for screens smaller than 600px */
-@media (max-width: 600px) and (prefers-color-scheme: dark) {
-  :root {
-    --primary-background: #111;
-    --primary-text: #ddd;
-    --secondary-background: #222;
-    --secondary-text: #fff;
-    --accent-color: #DAA520;
-    --border-color: #a87f1a;
-    --hover-color: #957117;
-    --focus-color: #b79223;
-    --shadow-color: #222;
-  }
 }
  
 .clearfix:before,
