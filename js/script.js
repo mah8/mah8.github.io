@@ -7,7 +7,7 @@ const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
 // Change the logo image based on the dark mode status
 if (isDarkMode) {
-  logoImg.src = '/img/logo-dark.png';
+  logoImg.src = '/img/logo_transparent_xs.png';
 } else {
   logoImg.src = '/img/logo.png';
 }
