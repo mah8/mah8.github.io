@@ -1,15 +1,41 @@
 /* Themed colors */
 :root {
+  /* Light mode */
   --primary-accent: #3C4858;
   --navbar-border-top: #b79223;
   --button-border: #a87f1a;
-  --link-focus:  #DAA520 ;
+  --link-focus: #DAA520;
   --form-shadow: #152233;
   --pagination-bg: #9B4E4E;
   --link-hover-bg: #957117;
-  --navbar-focus: #0F1B27 ;
+  --navbar-focus: #0F1B27;
+
+  /* Dark mode */
+  --primary-background: #222;
+  --primary-text: #fff;
+  --secondary-background: #333;
+  --secondary-text: #ddd;
+  --accent-color: #DAA520;
+  --border-color: #a87f1a;
+  --hover-color: #957117;
+  --focus-color: #b79223;
+  --shadow-color: #111;
 }
 
+/* Use the dark mode palette when the user's browser is in dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-background: #111;
+    --primary-text: #ddd;
+    --secondary-background: #222;
+    --secondary-text: #fff;
+    --accent-color: #DAA520;
+    --border-color: #a87f1a;
+    --hover-color: #957117;
+    --focus-color: #b79223;
+    --shadow-color: #222;
+  }
+ 
 .clearfix:before,
 .clearfix:after,
 .navbar:before,
