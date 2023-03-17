@@ -1223,7 +1223,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel ul,
 .home-carousel p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   padding: 0;
   text-transform: uppercase;
@@ -3446,7 +3446,7 @@ abbr[data-original-title] {
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
-  font-size: 14px;
+  font-size: 15px;
   border-left: 5px solid var(--primary-accent);
 }
 blockquote footer,
