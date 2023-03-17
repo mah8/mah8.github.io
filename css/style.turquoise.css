@@ -1177,7 +1177,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 @media (prefers-color-scheme: dark) {
   .dark-mask {
-    opacity: 0.2; /* new opacity value for dark mode */
+    opacity: 0.1; /* new opacity value for dark mode */
   }
 }
 
@@ -2955,7 +2955,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-decoration: none;
 }
 .navbar-brand img {
-  max-height: 42px;
+  max-height: 45px;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
@@ -3452,8 +3452,8 @@ abbr[data-original-title] {
 }
 blockquote {
   padding: 10px 20px;
-  margin: 0 0 20px;
-  font-size: 15px;
+  margin: 0 0 5px;
+  font-size: 18px;
   border-left: 5px solid var(--primary-accent);
 }
 blockquote footer,
