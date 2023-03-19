@@ -2948,7 +2948,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-decoration: none;
 }
 .navbar-brand img {
-  max-height: 42px;
+  max-height: 50px;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
