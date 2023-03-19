@@ -78,17 +78,7 @@
 
 
 
-<script>
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    localStorage.setItem('hugo-dark-mode', 'true');
-  }
-  else {
-    localStorage.setItem('hugo-dark-mode', 'false');
-  }
-</script>
 
-
-    
   </head>
 
   <body>
@@ -296,15 +286,24 @@
                     
                     <a href="https://www.eight-ba.com/" target="_blank" title="">
                     
-                    <div class="col-sm-1 right"></div>
                         <div class="row">
-                            <div class="col-sm-7left">
-                                <h1></h1>
-                                <p>tttttt</p> <p>tttttt</p> <p>tttttt</p> <p>tttttt</p> <p>tttttt</p> <p>tttttt</p> <p>tttttt</p>
+                            <div class="col-sm-5 right">
+                                <ul class="list-style-none">
+                                    <br>
+                                    <div id="quote"></div>
+                                    <script src="quotes.js"></script>
+                                    <script>
+                                    	const quoteElement = document.getElementById("quote");
+                                        const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+                                        quoteElement.innerHTML = `<blockquote>${randomQuote.quote}</blockquote><cite>${randomQuote.author}</cite>`;
+					
+                                    </script>
+                              
+                               </ul>
 
                             </div>
-                            <div class="col-sm-4 right">
-                                <img class="img-responsive" src="" alt="">
+                            <div class="col-sm-7">
+                                <img class="img-responsive" src="img/Eight%20_logos_transparent_rectangle_xs.png" alt="">
                             </div>
                         </div>
                     
