@@ -1598,8 +1598,7 @@ fieldset[disabled] .btn-template-primary.active {
 .box-image-text .top {
   position: relative;
   margin-bottom: 10px;
-  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='lessDarkGrayscale'><feColorMatrix type='matrix' values='0.4 0.4 0.4 0 0 0.4 0.4 0.4 0 0 0.4 0.4 0.4 0 0 0 0 0 1 0'/></filter></svg>#lessDarkGrayscale");
-}
+  }
 .box-image-text .top .bg {
   position: absolute;
   top: auto;
