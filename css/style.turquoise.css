@@ -110,7 +110,7 @@ div.section {
   border-bottom: solid 5px var(--primary-accent);
   line-height: 1.1;
   margin-bottom: 0;
-  padding-bottom: 10px;
+  padding-bottom: 60px;
   vertical-align: middle;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -1177,7 +1177,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel .owl-carousel {
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .home-carousel .owl-theme .owl-controls .owl-page span {
   background: #666;
@@ -1772,7 +1772,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: var(--primary-accent);
-  padding: 10px 0;
+  padding: 60px 0;
 }
 .bar.background-pentagon {
   background: url('../img/texture-turquoise.png') center center repeat;
