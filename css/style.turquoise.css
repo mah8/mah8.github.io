@@ -99,7 +99,7 @@ div.section {
   margin-bottom: 10px !important;
 }
 .heading {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 .heading h1,
 .heading h2,
@@ -1772,7 +1772,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: var(--primary-accent);
-  padding: 10px 0;
+  padding: 40px 0;
 }
 .bar.background-pentagon {
   background: url('../img/texture-turquoise.png') center center repeat;
