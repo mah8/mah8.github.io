@@ -1772,7 +1772,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: var(--primary-accent);
-  padding: 60px 0;
+  padding: 10px 0;
 }
 .bar.background-pentagon {
   background: url('../img/texture-turquoise.png') center center repeat;
