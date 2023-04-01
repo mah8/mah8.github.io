@@ -1250,7 +1250,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .customers .item img {
   display: inline-block;
-  max-width: 192px;
+  max-width: 150px;
   height: auto;
   width: auto;
   max-height: 110px;
