@@ -99,7 +99,7 @@ div.section {
   margin-bottom: 10px !important;
 }
 .heading {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 .heading h1,
 .heading h2,
@@ -110,7 +110,7 @@ div.section {
   border-bottom: solid 5px var(--primary-accent);
   line-height: 1.1;
   margin-bottom: 0;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   vertical-align: middle;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -1772,7 +1772,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: var(--primary-accent);
-  padding: 40px 0;
+  padding: 10px 0;
 }
 .bar.background-pentagon {
   background: url('../img/texture-turquoise.png') center center repeat;
