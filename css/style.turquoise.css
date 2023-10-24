@@ -2530,9 +2530,9 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0 0 20px;
 }
 #footer {
-  background: #9ba1a8;
+  background: #000;
   padding: 50px 0;
-  color: #000;
+  color: #FFF;
 }
 #footer h1,
 #footer h2,
